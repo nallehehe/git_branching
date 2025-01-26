@@ -30,7 +30,7 @@ git commit -m "Add definition for XYZ"
 ## Pusha branch till remote
 git push origin your-branch-name
 
-# Om det behövs - uppdatera branch med main
+## Om det behövs - uppdatera branch med main
 git checkout main
 git pull origin main
 git checkout your-branch-name
