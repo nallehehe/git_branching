@@ -13,24 +13,25 @@
 - [Workflow](tutorials/workflow.md)
 - [Standup Template](meetings/standup-template.md)
 
-## Hjälp kommandon att använda
-# Hämta senaste versionen från main
+# Hjälp kommandon att använda
+## Hämta senaste versionen från main
 git pull origin main
 
-# Skapa och byt till ny branch
-git checkout -b feature/add-word-xyz
+## Skapa och byt till ny branch
+git checkout -b your-branch-name
+_du kan döpa en branch till vad du vill men använd inte mellanslag_
 
-# Lägg till ändrade filer
+## Lägg till ändrade filer
 git add .
 
-# Commit med beskrivande meddelande
+## Commit med beskrivande meddelande
 git commit -m "Add definition for XYZ"
 
-# Pusha branch till remote
-git push origin feature/add-word-xyz
+## Pusha branch till remote
+git push origin your-branch-name
 
 # Om det behövs - uppdatera branch med main
 git checkout main
 git pull origin main
-git checkout feature/add-word-xyz
+git checkout your-branch-name
 git merge main
